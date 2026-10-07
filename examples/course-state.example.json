@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "course_key": "sample-course",
+  "provider": "example-provider",
+  "checked_at": "2030-01-01T10:00:00+01:00",
+  "lessons": [
+    {
+      "key": "module-a/sample-introduction",
+      "module": "Module A",
+      "title": "Sample introduction",
+      "status": "validated",
+      "output_relative_path": "Module A/001 - Sample introduction.mp4",
+      "evidence": ["full decode passed", "audio and start/middle/end frames checked"]
+    },
+    {
+      "key": "module-a/sample-follow-up",
+      "module": "Module A",
+      "title": "Sample follow-up",
+      "status": "pending",
+      "evidence": ["listed on course page; not captured"]
+    }
+  ]
+}

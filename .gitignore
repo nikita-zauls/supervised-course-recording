@@ -1,0 +1,19 @@
+# Private runtime and media never belong here
+.env*
+!.env.example
+*.mkv
+*.mp4
+*.mov
+*.webm
+*.srt
+*.vtt
+*.sqlite*
+*.db
+*.log
+*.har
+*.trace
+*.zip
+__pycache__/
+.venv/
+.vscode/
+.idea/
